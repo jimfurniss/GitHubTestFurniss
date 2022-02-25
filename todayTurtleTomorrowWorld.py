@@ -1,10 +1,12 @@
-na = "That's not my name: Ting Ting"
+na = "Ting Ting"
 
-num = input("Who Knows?")
+#num = input("Who Knows?")
 
-name = ['Jim','John','Zack','Eli']
-
+names = ['Jim','John','Zack','Eli']
+i = 0
 for name in names:
-    print(f'{na} is not correct; my name is {name}: {num}')
+    print(f'{na} is not correct; my name is {name}\n')
+    print(len(names[i]))
+    i += 1
 
 
