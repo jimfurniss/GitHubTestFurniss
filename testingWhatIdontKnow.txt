@@ -1,5 +1,10 @@
 num = 5
 print(num)
-Well that's just cray cray
-Really.......you think that's cray cray
+#Well that's just cray cray
+#Really.......you think that's cray cray
+
+doubleNumber = num * 2
+sqNum = num * num
+
+print(num + doubleNumber  + sqNum)
 
